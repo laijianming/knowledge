@@ -71,7 +71,7 @@ public class Producer {
             System.out.println("发送结果：" + send);
         }
         // 不关闭Producer，需等待事务监听工作
-        // producer.shutdown();
+        // provider.shutdown();
 
     }
 
