@@ -1,4 +1,4 @@
-package com.jianming.algorithm.algorithm.day20_0318;
+package com.jianming.algorithm.algorithm.practice.day20_0318;
 
 import java.util.Scanner;
 
