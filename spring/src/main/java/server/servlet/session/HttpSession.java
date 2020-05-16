@@ -1,4 +1,4 @@
-package server.bean;
+package server.servlet.session;
 
 /**
  * Session

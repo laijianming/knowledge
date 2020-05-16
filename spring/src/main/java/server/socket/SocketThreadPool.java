@@ -49,7 +49,7 @@ public class SocketThreadPool {
     /**
      * 线程池
      */
-    private ThreadPoolExecutor socketThreadPool = new ThreadPoolExecutor(corePollSize, maximumPoolSize, keepAliveTime, timeUnit,
+    private final ThreadPoolExecutor socketThreadPool = new ThreadPoolExecutor(corePollSize, maximumPoolSize, keepAliveTime, timeUnit,
             workQueue, (r) -> {
         // 创建线程的工厂
                 synchronized (this) {
